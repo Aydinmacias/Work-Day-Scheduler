@@ -54,8 +54,18 @@ colorChanger();
 var updateInterval = setInterval(colorChanger, 15000);
 
 // how we retreive the information
-$('#idofblock1 .classofinput').val(localStorage.getItem('idofblock'))
-$('#idofblock2 .classofinput').val(localStorage.getItem('idofblock'))
+$('#9' , '.input').val(localStorage.getItem('#9'))
+$('#10 .input').val(localStorage.getItem('10'))
+$('#11 .input').val(localStorage.getItem('11'))
+$('#12 .input').val(localStorage.getItem('12'))
+$('#13 .input').val(localStorage.getItem('13'))
+$('#14 .input').val(localStorage.getItem('14'))
+$('#15 .input').val(localStorage.getItem('15'))
+$('#16 .input').val(localStorage.getItem('16'))
+$('#17 .input').val(localStorage.getItem('17'))
+$('#18 .input').val(localStorage.getItem('18'))
+$('#19 .input').val(localStorage.getItem('19'))
+$('#20 .input').val(localStorage.getItem('20'))
 //function saveTask(){
     //console.log("save button press")
     //JSON.stringify(localStorage.setItem("hourly task", savedItems));
